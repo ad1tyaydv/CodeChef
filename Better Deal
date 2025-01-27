@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int tt;
+    cin>>tt;
+    while(tt--) {
+        
+        int a,b;
+        cin>>a>>b;
+        
+        int dis1 = (100 * a) / 100;
+        int ans1 = 100 - dis1;
+        
+        int dis2 = (200 * b) / 100;
+        int ans2 = 200 - dis2;
+        
+        if(ans1 < ans2) {
+            cout<<"FIRST"<<endl;
+        }
+        else if(ans1 > ans2) {
+            cout<<"SECOND"<<endl;
+        }
+        else {
+            cout<<"BOTH"<<endl;
+        }
+    }
+}
