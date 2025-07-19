@@ -22,7 +22,7 @@ int main() {
             cout<<"SECOND"<<endl;
         }
         else {
-            cout<<"BOTH"<<endl;
+            cout<<"BOTH"<<endl;    
         }
     }
 }
