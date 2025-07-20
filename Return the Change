@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
     
-    int tt;
-    cin>>tt;
-    while(tt--) {
+    int tc;
+    cin>>tc;
+    while(tc--) {
         
         int n;
         cin>>n;
